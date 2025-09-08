@@ -244,7 +244,7 @@ const Home = () => {
                         <label htmlFor="youtubeBellImg" className='font-bold '>ẢNH CHỨNG TỎ ĐÃ BẬT CHUÔNG YOUTUBE</label>
                         <ol className="list-disc list-outside space-y-1 text-gray-700 pl-3 ml-3">
                             <li>
-                                Mọi người tìm kiếm tên kênh là: <span className='font-bold'>m mit review</span> hoặc <span className='font-bold'>@mmitreview </span>. Rồi bấm <span className='font-bold'>đăng ký</span> và <span className='font-bold'>bật chuông</span>  nha. <span className='text-orange-500'>Phải bật chuông thì mới hợp lệ nha mọi người.</span>
+                                Mọi người tìm kiếm tên kênh là: <span className='font-bold'>m mit review</span> hoặc <span className='font-bold'>@mmitreview </span>. Rồi bấm <span className='font-bold'>đăng ký</span> và <span className='font-bold'>bật chuông</span>  nha. <span className='text-orange-500'>Phải bật chuông<i>(chọn nhận tất cả thông báo)</i> thì mới hợp lệ nha mọi người.</span>
                             </li>
                             <li>
                                 Mọi người có thể tham khảo cách bật chuông trong video bên dưới nha:
@@ -327,7 +327,7 @@ const Home = () => {
                         <label htmlFor="fbBellImg" className='font-bold '>ẢNH CHỨNG TỎ ĐÃ BẬT THÔNG BÁO FACEBOOK</label>
                         <ol className="list-disc list-outside space-y-1 text-gray-700 pl-3 ml-3">
                             <li>
-                                Để sau này mình ra nhiều event giá trị hơn nữa mà mọi người có thể dễ nhận thông báo từ fanpage hơn. <span className='text-orange-500'>Phải bật chuông thì mới hợp lệ nha mọi người.</span>
+                                Để sau này mình ra nhiều event giá trị hơn nữa mà mọi người có thể dễ nhận thông báo từ fanpage hơn. <span className='text-orange-500'>Phải bật thông báo<i>(chọn nhận tất cả thông báo)</i>  thì mới hợp lệ nha mọi người.</span>
                             </li>
                             <li>
                                 Mọi người có thể tham khảo cách bật thông báo fb trong video bên dưới nha:

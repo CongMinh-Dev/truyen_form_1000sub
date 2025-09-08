@@ -1,0 +1,41 @@
+.usManager {
+  position: relative;
+}
+.usManager .popup_add_user, .usManager .popup_add_user2 {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  height: 95%;
+  width: 100%;
+  display: none;
+  background-color: white;
+}
+.usManager .button_back_home_page {
+  margin-left: 35%;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 992px) {
+  .ant-table-container .ant-table-content .ant-table-cell {
+    padding: 3px 3px;
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .ant-table-container .ant-table-content .ant-table-cell {
+    padding: 3px 3px;
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .ant-table-container .ant-table-content .ant-table-cell {
+    padding: 3px 3px;
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .ant-table-container .ant-table-content .ant-table-cell {
+    padding: 3px 3px;
+    font-size: 8px;
+  }
+}/*# sourceMappingURL=UsManager.css.map */

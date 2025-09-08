@@ -1,0 +1,170 @@
+.background_img_ticket {
+  background-image: url("../../assets/img/bgBuyTicket.jpg");
+  height: 100vh;
+  background-size: cover;
+}
+
+.background_color_ticket {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.booking_ticket {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+}
+.booking_ticket .home_page {
+  position: fixed;
+  top: 2%;
+  left: 79%;
+}
+.booking_ticket .footer_buy_ticket {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.list h1 {
+  color: rgb(238, 238, 54);
+  text-align: center;
+  font-weight: bold;
+}
+.list h4 {
+  padding-top: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+.list .screen {
+  border-bottom: 50px solid rgb(255, 159, 95);
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  height: 100;
+  width: 90%;
+  filter: drop-shadow(4px 30px 20px rgba(255, 255, 255, 0.5));
+  font-size: 25px;
+  color: #fff;
+  margin-left: 8%;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  width: 90%;
+  height: 50%;
+  margin-left: 8%;
+}
+.item .ghe_da_dat {
+  background-color: orange;
+  border: 1px solid orange;
+  margin: 2px 0;
+  padding: 0;
+  width: 100%;
+  height: 30px;
+}
+.item .ghe_dang_dat {
+  background-color: green;
+  border: 1px solid orange;
+  margin: 2px 0;
+  padding: 0;
+  width: 100%;
+  height: 30px;
+}
+.item .ghe_chua_dat {
+  border: 1px solid orange;
+  margin: 2px 0;
+  padding: 0;
+  width: 100%;
+  height: 30px;
+  /* position: absolute; */
+}
+
+.cart {
+  color: white;
+  position: fixed;
+  top: 9%;
+  right: 5%;
+  width: 25%;
+  height: 60vh;
+  padding: 0 10px;
+  border: 3px solid rgba(255, 255, 255, 0);
+  border-radius: 4px;
+  box-shadow: 0 0 30px 0 rgba(255, 254, 254, 0.671);
+}
+.cart .cart_table {
+  height: 30vh;
+  overflow: auto;
+}
+.cart .demo {
+  height: 50px;
+  overflow: auto;
+}
+.cart .ghe {
+  border: 3px solid orange;
+  /* width: 45px;
+  height: 35px; */
+  font-size: 12px;
+  margin-left: 2%;
+  margin-bottom: 15%;
+  border-radius: 5px;
+}
+.cart .cart_ghe_da_dat {
+  border: 3px solid orange;
+  border-radius: 5px;
+  background-color: rgb(255, 166, 1);
+  width: 45px;
+  height: 35px;
+  display: inline-block;
+}
+.cart .cart_ghe_dang_chon {
+  border: 3px solid orange;
+  border-radius: 5px;
+  background-color: rgba(0, 128, 0, 0.5);
+  width: 45px;
+  height: 35px;
+  display: inline-block;
+}
+.cart .cart_ghe_chua_dat {
+  border: 3px solid orange;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0);
+  width: 45px;
+  height: 35px;
+  display: inline-block;
+}
+.cart .table {
+  border: 1px solid white;
+  color: white;
+  text-align: center;
+}
+.cart th, .cart td {
+  border: 1px solid white;
+  text-align: center;
+}
+.cart .th_so_ghe {
+  padding: 0 30px;
+}
+.cart .th_gia {
+  padding: 0 30px;
+}
+.cart .th_huy {
+  padding: 0 30px;
+}
+.cart .button_booking_ticket {
+  font-weight: bold;
+  background-color: rgb(135, 222, 139);
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 4px;
+}
+.cart .button_booking_ticket:hover {
+  background-color: rgb(0, 0, 255);
+}/*# sourceMappingURL=buyTicket.css.map */

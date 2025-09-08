@@ -1,0 +1,73 @@
+.tab_cum_rap.ant-tabs .ant-tabs-nav .ant-tabs-nav-list {
+  width: 300px;
+}
+@media (max-width: 575.99px) {
+  .tab_cum_rap.ant-tabs .ant-tabs-nav .ant-tabs-nav-list {
+    width: 100px;
+  }
+}
+.tab_cum_rap.ant-tabs .ant-tabs-nav .ant-tabs-nav-list .ant-tabs-tab {
+  padding: 0;
+  padding-right: 24px;
+}
+@media (max-width: 575.99px) {
+  .tab_cum_rap.ant-tabs .ant-tabs-nav .ant-tabs-nav-list .ant-tabs-tab .label_cumrap {
+    width: 100px;
+    animation: moveX infinite 15s;
+  }
+}
+.tab_cum_rap.ant-tabs .ant-tabs-content-holder .ant-tabs-content .ant-tabs-tabpane {
+  padding-left: 5px;
+}
+.tab_cum_rap.ant-tabs .ant-tabs-content-holder .ant-tabs-content .ant-tabs-tabpane .phimDangChieu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.tab_cum_rap.ant-tabs .ant-tabs-content-holder .ant-tabs-content .ant-tabs-tabpane .phimDangChieu::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 5px;
+  background: cyan;
+}
+.tab_cum_rap.ant-tabs .ant-tabs-content-holder .ant-tabs-content .ant-tabs-tabpane .phimDangChieu::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 227, 71, 0.842);
+}
+@media (max-width: 575.99px) {
+  .tab_cum_rap.ant-tabs .ant-tabs-content-holder .ant-tabs-content .ant-tabs-tabpane .phimDangChieu .tabPhim {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.99px) {
+  .tab_cum_rap.ant-tabs .ant-tabs-content-holder .ant-tabs-content .ant-tabs-tabpane .phimDangChieu .tabPhim {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.99px) {
+  .tab_cum_rap.ant-tabs .ant-tabs-content-holder .ant-tabs-content .ant-tabs-tabpane .phimDangChieu .tabPhim .titlePhim .namePhim .c18Content {
+    font-size: 20px;
+  }
+}
+@media (max-width: 575.99px) {
+  .tab_cum_rap.ant-tabs .ant-tabs-content-holder .ant-tabs-content .ant-tabs-tabpane .phimDangChieu .tabPhim .titlePhim .namePhim .c18Content {
+    font-size: 14px;
+  }
+}
+.tab_cum_rap.ant-tabs .ant-tabs-content-holder .ant-tabs-content .ant-tabs-tabpane .phimDangChieu .tabPhim .titlePhim .namePhim .titleContent {
+  font-size: 20px;
+}
+
+@keyframes moveX {
+  0% {
+    transform: translateX(100%);
+  }
+  50% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}/*# sourceMappingURL=lichChieuPhim2.css.map */
